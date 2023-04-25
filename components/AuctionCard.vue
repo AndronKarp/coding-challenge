@@ -5,6 +5,7 @@
             <NuxtImg
                 :src="auction.image"
                 sizes="sm:100vw lg:50vw xl:33vw xxl:25vw"
+                loading="lazy"
                 class="w-full aspect-square"
             />
         </div>
